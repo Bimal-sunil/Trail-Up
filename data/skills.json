@@ -1,0 +1,169 @@
+[
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "keywords": ["js", "frontend", "node"],
+    "questions": [
+      { "id": "js-q1", "text": "Can you explain closures?" },
+      { "id": "js-q2", "text": "Do you know how 'this' binding works?" },
+      { "id": "js-q3", "text": "Can you use array methods like map/filter/reduce confidently?" },
+      { "id": "js-q4", "text": "Do you understand event loop and microtasks?" },
+      { "id": "js-q5", "text": "Are you comfortable with async/await and Promises?" },
+      { "id": "js-q6", "text": "Do you use modules (import/export) regularly?" },
+      { "id": "js-q7", "text": "Can you handle errors and exceptions effectively?" },
+      { "id": "js-q8", "text": "Do you understand prototypes and classes?" },
+      { "id": "js-q9", "text": "Can you manipulate the DOM without libraries if needed?" },
+      { "id": "js-q10", "text": "Do you understand performance basics in JS?" }
+    ],
+    "roadmap": {
+      "beginner": {
+        "summary": "Build core language fundamentals and syntax.",
+        "sections": [
+          {
+            "title": "Syntax & Basics",
+            "items": ["Variables and Types", "Functions", "Control Flow"],
+            "resources": [
+              { "title": "MDN JavaScript Guide", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" }
+            ]
+          }
+        ]
+      },
+      "intermediate": {
+        "summary": "Deepen into asynchronous patterns and runtime.",
+        "sections": [
+          {
+            "title": "Asynchronous JS",
+            "items": ["Promises", "async/await", "Fetch API"],
+            "resources": [
+              { "title": "You Don't Know JS Yet", "url": "https://github.com/getify/You-Dont-Know-JS" }
+            ]
+          }
+        ]
+      },
+      "pro": {
+        "summary": "Master advanced concepts and performance.",
+        "sections": [
+          {
+            "title": "Advanced & Performance",
+            "items": ["Event Loop", "Microtasks", "Memory & Perf"],
+            "resources": [
+              { "title": "Jake Archibald: In The Loop", "url": "https://www.youtube.com/watch?v=cCOL7MC4Pl0" }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "keywords": ["backend", "data", "scripting"],
+    "questions": [
+      { "id": "py-q1", "text": "Do you understand Python data structures?" },
+      { "id": "py-q2", "text": "Can you write list/dict comprehensions?" },
+      { "id": "py-q3", "text": "Do you handle virtual environments?" },
+      { "id": "py-q4", "text": "Are you comfortable with modules and packages?" },
+      { "id": "py-q5", "text": "Do you use exceptions for error handling?" },
+      { "id": "py-q6", "text": "Do you know generators and iterators?" },
+      { "id": "py-q7", "text": "Can you use typing hints?" },
+      { "id": "py-q8", "text": "Are you familiar with standard library tools?" },
+      { "id": "py-q9", "text": "Can you test with pytest or unittest?" },
+      { "id": "py-q10", "text": "Do you know packaging basics?" }
+    ],
+    "roadmap": {
+      "beginner": {
+        "summary": "Fundamentals and syntax.",
+        "sections": [
+          {
+            "title": "Core Python",
+            "items": ["Types", "Control Flow", "Functions"],
+            "resources": [
+              { "title": "Official Tutorial", "url": "https://docs.python.org/3/tutorial/" }
+            ]
+          }
+        ]
+      },
+      "intermediate": {
+        "summary": "Idiomatic Python and stdlib.",
+        "sections": [
+          {
+            "title": "Idioms & stdlib",
+            "items": ["Comprehensions", "Pathlib", "Dataclasses"],
+            "resources": [
+              { "title": "Real Python", "url": "https://realpython.com/" }
+            ]
+          }
+        ]
+      },
+      "pro": {
+        "summary": "Performance and tooling.",
+        "sections": [
+          {
+            "title": "Advanced",
+            "items": ["Typing", "Asyncio", "Packaging"],
+            "resources": [
+              { "title": "Effective Python", "url": "https://effectivepython.com/" }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "keywords": ["frontend", "ui", "spa"],
+    "questions": [
+      { "id": "r-q1", "text": "Do you understand JSX and components?" },
+      { "id": "r-q2", "text": "Can you use state and props effectively?" },
+      { "id": "r-q3", "text": "Do you understand effects and lifecycles?" },
+      { "id": "r-q4", "text": "Are you familiar with context?" },
+      { "id": "r-q5", "text": "Can you manage forms and inputs?" },
+      { "id": "r-q6", "text": "Do you know list rendering and keys?" },
+      { "id": "r-q7", "text": "Are you comfortable with routing?" },
+      { "id": "r-q8", "text": "Do you understand performance optimization?" },
+      { "id": "r-q9", "text": "Can you fetch data and handle loading states?" },
+      { "id": "r-q10", "text": "Do you know component composition patterns?" }
+    ],
+    "roadmap": {
+      "beginner": {
+        "summary": "Learn component basics.",
+        "sections": [
+          {
+            "title": "Core",
+            "items": ["JSX", "Props", "State"],
+            "resources": [
+              { "title": "React Docs", "url": "https://react.dev/learn" }
+            ]
+          }
+        ]
+      },
+      "intermediate": {
+        "summary": "Hooks & data fetching.",
+        "sections": [
+          {
+            "title": "Hooks",
+            "items": ["useEffect", "useMemo", "Context"],
+            "resources": [
+              { "title": "TanStack Query", "url": "https://tanstack.com/query/latest" }
+            ]
+          }
+        ]
+      },
+      "pro": {
+        "summary": "Performance and patterns.",
+        "sections": [
+          {
+            "title": "Advanced",
+            "items": ["Code Splitting", "Suspense", "Patterns"],
+            "resources": [
+              { "title": "Epic React", "url": "https://epicreact.dev/" }
+            ]
+          }
+        ]
+      }
+    }
+  }
+]
+
+
